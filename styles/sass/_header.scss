@@ -1,0 +1,50 @@
+.banner-index {
+  background: url(../images/home-header.jpg);
+  height: 70vh;
+  min-height: 500px;
+}
+
+.banner-contact {
+  background: url(../images/contact-header.jpg);
+  height: 50vh;
+  min-height: 300px;
+}
+
+.banner-blog {
+  background: url(../images/blog-header.jpg);
+  height: 60vh;
+  min-height: 300px;
+}
+.banner-index,
+.banner-contact,
+.banner-blog {
+  background-color: #171b0d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  font-size: $h1;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 6rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 2px 2px 4px #000000;
+
+  span {
+    display: block;
+    background-color: white;
+    color: #2b331b;
+    width: 375px;
+    padding: 10px 0 0 5px;
+    margin-bottom: 10px;
+    text-shadow: none;
+    box-shadow: 5px 5px 20px black;
+  }
+}
+.hamburger {
+  display: none;
+}

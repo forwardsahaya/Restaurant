@@ -1,0 +1,32 @@
+@import "setup";
+@import "variables";
+
+html {
+  font-size: 62.5%;
+  font-family: $font;
+}
+
+p {
+  font-family: $pfont;
+  font-size: $p;
+  font-weight: 200;
+  color: white;
+  line-height: 3.0rem;
+  letter-spacing: 0.09rem;
+  }
+  
+@import "header";
+@import "nav";
+@import "media-queries/mq-nav";
+@import "index-more-info";
+@import "index-article";
+@import "index-gift-card";
+@import "index-nature";
+@import "index-gallery";
+@import "contact";
+@import "blog";
+@import "media-queries/mq-contact";
+@import "media-queries/mq-blog";
+@import "media-queries/mq-index";
+@import "footer";
+
